@@ -1,2 +1,8 @@
 # Amazon-Fine-Foods-Analysis-DataMining-
-Amazon Fine Foods Sentiment Analysis 
+While learning Data Mining, me and my good friends Nathalie Crespo and Nicolas Caceda performed Sentiment Analysis on the Amazon Fine Foods dataset. We were provided two data sets, one reduced and one full. The full one conatined 500k different unique reviews while the reduced contained 14,906 reviews. We perfromed experiements on both data sets in two parts.
+
+**Part A:** Part A was based on Bag of Words experiements. We used multiple different classifiers to test 4 different metrics (accuracy, precision, recall, and 10-fold cross validation accuracy) on both data sets and compared the results. Our goal was to determine which classifers had the best chance of predicting the right rating on a review (either positive, negative, or neutral). We also wanted to see how differnt the metric would be on the full data compared to the reduced. Some of the metrics used were Naive Bayes, kNN, Decision Tress, Random Forest, and different types of Support Vector Machines (SVMs). The detials of Part A (including the numerical resutls and details of our experiements) are throughouly explained in our report, which can be found by opening the "Report" folder in this repo. 
+
+**Part B:** Part A was based on Word Embeddings and Neural Networks. Like in Part A, both the full and reduced data sets were used and the same metrics were computed. However, multiple Neural Network models were constructed using Keras. The goal of Part B was to experiment with different NN models to see how the metrics compare btween them. All experiments and numerical results are explained in our report, which can be found in the "Report" folder in this repo. Additionally, the "PartB.ipynb" file contains a very well documented notebook that explains the differences between all the models used and explain their layers. 
+
+
